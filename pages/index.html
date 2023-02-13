@@ -11,13 +11,13 @@
     <title>Сайт группы</title>
 </head>
 <body>
-    <header class="header">
-        <img src="../img/logo.svg" alt="" class="header-logo">
-        <ul class="site-menu">
-            <li ><a class="menu-link active-link" href="./index.html">Главная</a></li>
-            <li><a class="menu-link" href="./students.html">Студенты</a></li>
-            <li><a class="menu-link" href="./about.html">О курсе</a></li>
-            <li><a class="menu-link" href="./contacts.html">Контакты</a></li>
+    <header class="page-header">
+        <img src="../img/logo.svg" alt="" class="page-header__logo">
+        <ul class="page-header__menu">
+            <li class="page-header__menu-item"><a class="page-header__menu-link active-link" href="./index.html">Главная</a></li>
+            <li><a class="page-header__menu-link" href="./students.html">Студенты</a></li>
+            <li><a class="page-header__menu-link" href="./about.html">О курсе</a></li>
+            <li><a class="page-header__menu-link" href="./contacts.html">Контакты</a></li>
         </ul>
         <a href="./login.html" class="login-button">Войти</a>
         <div class="login-popup">
@@ -29,18 +29,18 @@
             </form>
         </div>
     </header>
-    <main class="main">
-        <h1 class="main-heading">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
-        <img class="class-photo"src="../img/class.png" alt="" width="523" height="316">
+    <main class="page-main">
+        <h1 class="page-main__heading">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <img class="page-main__photo"src="../img/class.png" alt="" width="523" height="316">
         <h2>Для кого этот курс</h2>
-        <p class="intro-text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты. 
+        <p class="page-main__text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты. 
             Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
         <h2>Чему вы научитесь</h2>
-        <p class="intro-text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em>  сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+        <p class="page-main__text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em>  сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
     </main>
     <footer class="page-footer">
-        <p class="copyright">
-            2022 &copy; <a class = "innop-link" href="#">учебный центр</a>
+        <p class="page-footer__copyright">
+            2022 &copy; <a class="page-footer__link" href="#">учебный центр</a>
         </p>
     </footer>
     <script src="../js/popup.js"></script>

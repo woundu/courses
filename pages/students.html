@@ -11,13 +11,13 @@
     <title>Сайт группы</title>
 </head>
 <body>
-    <header class="header">
-        <img src="../img/logo.svg" alt="" class="header-logo">
-        <ul class="site-menu">
-            <li class="menu-item"><a class="menu-link" href="./index.html">Главная</a></li>
-            <li><a class="menu-link active-link" href="./students.html">Студенты</a></li>
-            <li><a class="menu-link" href="./about.html">О курсе</a></li>
-            <li><a class="menu-link" href="./contacts.html">Контакты</a></li>
+    <header class="page-header">
+        <img src="../img/logo.svg" alt="" class="page-header__logo">
+        <ul class="page-header__menu">
+            <li class="page-header__menu-item"><a class="page-header__menu-link" href="./index.html">Главная</a></li>
+            <li><a class="page-header__menu-link active-link" href="./students.html">Студенты</a></li>
+            <li><a class="page-header__menu-link" href="./about.html">О курсе</a></li>
+            <li><a class="page-header__menu-link" href="./contacts.html">Контакты</a></li>
         </ul>
         <a href="./login.html" class="login-button">Войти</a>
         <div class="login-popup">
@@ -29,12 +29,34 @@
             </form>
         </div>
     </header>
-    <main class="main">
-        
+    <main class="page-main">
+        <h1 class="page-main__heading">Студенты потока 08.02.2020 👧👦</h1>
+        <div class="page-main__students">
+            <section class="page-main__students--student">
+                <img src="../img/student-card.jpg" alt="Фото студента" class="page-main__students--student-photo" width="200px" height="270px">
+                <p class="page-main__students--student-name">Василий Иванов</p>
+            </section>
+            <section class="page-main__students--student">
+                <img src="../img/student-card.jpg" alt="Фото студента" class="page-main__students--student-photo" width="200px" height="270px">
+                <p class="page-main__students--student-name">Мария Александрова</p>
+            </section>
+            <section class="page-main__students--student">
+                <img src="../img/student-card.jpg" alt="Фото студента" class="page-main__students--student-photo" width="200px" height="270px">
+                <p class="page-main__students--student-name">Мария Александрова</p>
+            </section>
+            <section class="page-main__students--student">
+                <img src="../img/student-card.jpg" alt="Фото студента" class="page-main__students--student-photo" width="200px" height="270px">
+                <p class="page-main__students--student-name">Василий Иванов</p>
+            </section>
+            <section class="page-main__students--student">
+                <img src="../img/student-card.jpg" alt="Фото студента" class="page-main__students--student-photo" width="200px" height="270px">
+                <p class="page-main__students--student-name">Василий Иванов</p>
+            </section>
+        </div>
     </main>
     <footer class="page-footer">
-        <p class="copyright">
-            2022 &copy; <a class = "innop-link" href="#">учебный центр</a>
+        <p class="page-footer__copyright">
+            2022 &copy; <a class = "page-footer__link" href="#">учебный центр</a>
         </p>
     </footer>
     <script src="../js/popup.js"></script>
