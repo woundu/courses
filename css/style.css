@@ -301,5 +301,5 @@ em{
 }
 
 @media (max-width:1200px) {
-    .students {flex-wrap: wrap;}
+    .page-main__students {flex-wrap: wrap;}
 }
