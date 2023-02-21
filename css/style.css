@@ -170,8 +170,8 @@ body {
 
 
 .content {
-
-    width:912px;
+    width:100%;
+    max-width:912px;
     margin: 0 auto;
 }
 
@@ -286,7 +286,8 @@ em{
 /* Contacts */
 
 .contacts-container {
-    width: 1300px;
+    width:100%;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
