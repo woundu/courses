@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
 
@@ -163,11 +164,19 @@ body {
 /* Content */
 
 .page-main{
-    width: 100%;
-    max-width: 911px;
-    margin: 0 auto;
     flex-grow: 1;
+    padding: 0 50px;
 }
+
+
+.content {
+
+    width:912px;
+    margin: 0 auto;
+}
+
+
+
 .page-main__heading{
     font-family: "Roboto";
     font-style: normal;
@@ -235,17 +244,21 @@ em{
 /* Students */
 
 .page-main__students {
-    display: flex;
-    width: 100%;
-    max-width: 1200;
-    justify-content: space-around;
-    flex-direction:row;
-    margin-top: 20px;
+    
+  max-width: 1202px;
+  margin: 0  auto;
+
 
 }
 
+.page-main__students-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+}
+
 .page-main__students--student {
-    padding-left: 50px;
+  width:200px;
 }
 
 .page-main__students--student-name {
@@ -271,6 +284,24 @@ em{
 }
 
 /* Contacts */
+
+.contacts-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.page-main__contacts {
+    padding-left: 216px;
+}
+.page-main__heading-contacts {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 216px;
+    margin-bottom: 26px;
+}
 
 .page-main__map {
     width:100%;
@@ -300,6 +331,3 @@ em{
     color: #000000;
 }
 
-@media (max-width:1200px) {
-    .page-main__students {flex-wrap: wrap;}
-}
